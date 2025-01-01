@@ -2,7 +2,6 @@
 
 import { Puck, type Config } from '@puck-ui/react';
 import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
 import { Heading } from '@/components/blocks/heading';
 import { Hero } from '@/components/blocks/hero';
 import { Features } from '@/components/blocks/features';
