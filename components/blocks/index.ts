@@ -4,3 +4,4 @@ export * from './features';
 export * from './testimonials';
 export * from './contact';
 export * from './Footer'
+export * from './Pricing'
