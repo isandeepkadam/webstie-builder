@@ -41,8 +41,9 @@ export default function Editor() {
                   localStorage.setItem('puck', JSON.stringify(appState.data))
                   // save(appState.data);
                 }}
+                style={{ color: "white"}}
               >
-                Save something
+                Save
               </button>
             </>
           );

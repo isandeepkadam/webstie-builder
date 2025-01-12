@@ -464,7 +464,7 @@
   flex-grow: 1;
 }
 ._SidebarSection-title_170gs_12 {
-  background: white;
+  background: #383838;
   padding: 16px;
   border-bottom: 1px solid var(--puck-color-grey-8);
   border-top: 1px solid var(--puck-color-grey-8);
@@ -526,7 +526,7 @@
 /* css-module:/home/runner/work/puck/puck/packages/core/components/Heading/styles.module.css/#css-module-data */
 ._Heading_1bvy5_1 {
   display: block;
-  color: var(--puck-color-black);
+  color: var(--puck-color-white);
   font-family: var(--puck-font-stack);
   font-weight: 700;
   margin: 0;
@@ -563,7 +563,8 @@
 
 /* css-module:/home/runner/work/puck/puck/packages/core/components/MenuBar/styles.module.css/#css-module-data */
 ._MenuBar_12sp7_1 {
-  background-color: var(--puck-color-white);
+  /* background-color: var(--puck-color-white); */
+  background: #383838;
   border-bottom: 1px solid var(--puck-color-grey-8);
   display: none;
   left: 0;
@@ -667,7 +668,7 @@
 }
 ._Puck-header_17hk3_95 {
   /* background: var(--puck-color-white); */
-  background-color: green;
+  background-color: #383838;
   border-bottom: 1px solid var(--puck-color-grey-8);
   color: var(--puck-color-black);
   grid-area: header;
@@ -691,7 +692,7 @@
 }
 ._Puck--rightSideBarVisible_17hk3_41 ._Puck-rightSideBarToggle_17hk3_121,
 ._Puck--leftSideBarVisible_17hk3_35 ._Puck-leftSideBarToggle_17hk3_122 {
-  color: var(--puck-color-black);
+  color: var(--puck-color-white);
 }
 ._Puck-headerTitle_17hk3_126 {
   align-self: center;
@@ -720,7 +721,8 @@
   }
 }
 ._Puck-leftSideBar_17hk3_122 {
-  background: var(--puck-color-grey-11);
+  /* background: var(--puck-color-grey-11); */
+  background: #383838;
   border-right: 1px solid var(--puck-color-grey-8);
   display: flex;
   flex-direction: column;
@@ -785,6 +787,7 @@
   font-weight: 600;
 }
 ._Input-labelIcon_1v7zr_35 {
+  /* color: white; */
   color: var(--puck-color-grey-6);
   margin-right: 4px;
   padding-left: 4px;
