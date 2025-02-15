@@ -2,6 +2,7 @@
 
 import { type ComponentConfig } from '@puck-ui/react';
 import { Card } from '@/components/ui/card';
+import { DropZone } from '@measured/puck';
 
 export const PricingSection: ComponentConfig = {
   fields: {
@@ -71,6 +72,7 @@ export const PricingSection: ComponentConfig = {
               </div>
             </Card>
           ))}
+          <DropZone zone="my-content" />
         </div>
       </div>
     );
