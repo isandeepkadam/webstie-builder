@@ -21,7 +21,7 @@ const config: Config = {
 export default function Editor() {
   return (
     <div className="min-h-screen">
-      <Puck
+{/*       <Puck
         config={config}
         onPublish={async (data) => {
           console.log('Published:', data);
@@ -43,7 +43,7 @@ export default function Editor() {
             </div>
           </div>
         )}
-      />
+      /> */}
     </div>
   );
 }
